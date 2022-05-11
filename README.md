@@ -13,3 +13,5 @@ This Notebook is about Customer segmentation & tageting and how they directly af
 * Customer segmentation on LRFM data analysis.
 * Weekly/Daily Time series Forecasting.
 * Sales prediction of new customer or estimates new sales of existing customers by Log-Log models to completement Customer Targeting.
+
+Note: Please refer to the html notebook to also see graphs however interactive notebooks are in the ML Notebooks
