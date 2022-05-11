@@ -1,0 +1,38 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Profile {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="container-fluid py-4 mt-5">
+    <div class="row">
+        <div class="col-12 mt-4">
+            <div class="card h-100 p-5">
+                <div class="card-header pb-0 p-3">
+                    <div class="row">
+                        <div class="col-md-8 d-flex align-items-center">
+                            <h6 class="mb-0">The Idea</h6>
+                        </div>
+                        <h3 class="title mb-4">Dashboard</h3>
+                    </div>
+                </div>
+                <div class="card-body p-3">
+                    <iframe title="DSI_powerbi - Page 1" width="1280" height="700" noresize='noresize'
+    src="https://app.powerbi.com/reportEmbed?reportId=da5214db-ae25-4090-882a-d94910fd3de6&autoAuth=true&ctid=b9b03209-17dd-4a1f-8d91-33e84b703351&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1xLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
+    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    {% include "includes/footer.html" %}
+
+</div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}{% endblock javascripts %}

@@ -1,0 +1,13 @@
+flask
+flask_login
+flask_migrate
+WTForms
+flask_wtf
+flask_sqlalchemy
+sqlalchemy
+email_validator
+python-decouple
+gunicorn
+jinja2
+flask-restx
+Werkzeug
